@@ -53,8 +53,6 @@ Tools:
 - stack_overflow_analysis.ipynb: Full EDA on the Stack Overflow 2024 data
 - lookers_dashboard.pdf: Screenshot or link to the Looker dashboard
 - final_presentation.pdf: Summary of key insights (content created by me)
-- survey_results_public.csv: full survey results from Stack Overflow Developer Survey 2024 (link - https://survey.stackoverflow.co/)
-- survey_results_schema.csv: schema data from Stack Overflow Developer Survery 2024 (link - https://survey.stackoverflow.co/)
 - README.md:	This documentation
 
 ## Key Insights
