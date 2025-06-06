@@ -1,23 +1,70 @@
-# IBM Data Analyst Certificate - Capstone Project
+# Tech Job Market & Developer Trends Analysis (2024)
 
-This is the Capstone Project from IBM Data Analyst Certification path on Coursera. The purpose of this project and work carried out is detailed below.
+## About This Project
+This project explores the 2024 Stack Overflow Developer Survey alongside tech job market data using API calls and web scraping to understand trends in developer demographics, compensation, and in-demand skills.
 
-## Project Scenario
-You have recently been hired as a Data Analyst by a global IT and business consulting firm renowned for its expertise in IT solutions and highly experiencedconsultants. To stay competitive in the rapidly evolving technology landscape, your organization regularly analyzes data to identify emerging and future skillrequirements.
+Note: This project was created as part of the IBM Data Analyst Certificate Capstone on Coursera. While certain datasets and guidance were provided, all analysis, data wrangling, insights, and visualizations are my own work.
 
-As a Data Analyst, you will contribute to this initiative by collecting data from diverse sources and identifying trends for this year's report on in-demand skills. One key source for your analysis will be the latest Developer Survey, a comprehensive dataset offering insights into the global developer community.
+The project allowed me to apply the full data analysis workflow—cleaning and wrangling raw survey data, conducting exploratory analysis, detecting and handling outliers, and generating meaningful insights through visual and statistical methods.
 
-Your initial task is to gather data on the most sought-after programming skills from various sources, including:
-- Job postings
-- Training portals
-- Developer surveys, such as the latest Stack Overflow Developer Survey
+## Project Overview
+This repository is split into two major parts:
 
-After collecting sufficient data, you will analyze it to identify key insights and trends. Some of the trends you will explore include:
-- Which programming languages are most in demand?
-- Which database technologies are currently most sought after?
-- Which Integrated Development Environments (IDEs) are the most popular?
+### 1. Job Market Research (API & Web Scraping)
+- Objective: Understand which technical skills are in demand and what the average salaries look like across different technologies.
+- Sources:
+  - Job postings dataset from PromptCloud via Kaggle
+   - Web-scraped salary data from publicly available websites (e.g., PayScale, Indeed)
+- Tasks Performed:
+   - Used the requests library to fetch job posting data via API
+   - Parsed and extracted relevant salary information using BeautifulSoup
+   - Cleaned and visualized skill and salary data to uncover top skills and compensation trends
 
-You will begin by scraping internet websites, accessing APIs, and working with datasets like the latest Stack Overflow Developer Survey in various formats such as.csv files, Excel sheets, and databases.
-After gathering the data, you will apply data-wrangling techniques to prepare the data for analysis.
-Once the data is prepared, you will employ statistical techniques to analyze the data, identifying key trends and insights. You will then synthesize your findings using Google Looker to create a dashboard that visualizes the results. Finally, you will share your insights through a presentation, showcasing your storytelling anddata analysis skills.
-## 
+### 2. Stack Overflow Developer Survey Analysis (2024)
+- Objective: Explore the global developer landscape by analyzing the annual Stack Overflow survey.
+- Dataset: 2024 Stack Overflow Developer Survey (CSV)
+- Tasks Performed:
+  - Data Wrangling:
+  - Cleaned missing and inconsistent values
+  - Handled nulls and duplicate records
+  - Detected and removed outliers (especially in compensation data) using IQR method
+- Exploratory Data Analysis:
+  - Uncovered patterns in developer roles, employment types, education levels, learning methods, language usage, and compensation
+  - Binned salary data and performed grouped aggregations (e.g., median and IQR by role, age, education)
+  - Visualized trends using bar plots, boxplots, histograms, and word clouds
+- Dashboard:
+  - Created an interactive dashboard in Google Looker Studio to summarize key insights
+
+## Technologies Used
+Languages
+- Python 3.x
+
+Libraries
+- Data Handling: ```pandas```, ```numpy```, ```collections.Counter```
+- Visualization: ```matplotlib```, ```seaborn```, wordcloud```
+- Web Scraping & APIs: ```requests```, ```BeautifulSoup```
+
+Tools:
+- Google Looker Studio (Dashboard)
+- PowerPoint or Google Slides (Presentation)
+
+## Files in This Repository
+- api_webscraping_analysis.ipynb: API and web scraping analysis notebook
+- stack_overflow_analysis.ipynb: Full EDA on the Stack Overflow 2024 data
+- lookers_dashboard.pdf: Screenshot or link to the Looker dashboard
+- final_presentation.pdf: Summary of key insights (content created by me)
+- survey_results_public.csv: full survey results from Stack Overflow Developer Survey 2024 (link - https://survey.stackoverflow.co/)
+- survey_results_schema.csv: schema data from Stack Overflow Developer Survery 2024 (link - https://survey.stackoverflow.co/)
+- README.md:	This documentation
+
+## Key Insights
+Some of the insights uncovered include:
+- Python, JavaScript, and SQL remain the most in-demand languages in job postings.
+- Most developers are between 18–44 years old and have at least a bachelor’s degree.
+- Developers learning via online communities, blogs, and certifications are dominating.
+- Median compensation varies widely by developer role and tends to increase with age and seniority.
+
+## Attribution & Notes
+This project was guided by the Capstone module of the [IBM Data Analyst Certificate on Coursera](https://www.coursera.org/professional-certificates/ibm-data-analyst).
+
+All data analysis, visualization, and insights were generated independently.
