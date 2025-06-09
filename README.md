@@ -66,7 +66,7 @@ Key Insights (2024 Developer Survey Highlights):
 
 ## 📜 Certifications
 
-- [**IBM Data Analyst Professional Certificate**](certifications/IBM%Data%Analyst%Certificate.pdf)
+- [**IBM Data Analyst Professional Certificate**](certifications/IBM%20Data%20Analyst%20Certificate.pdf)
   Coursera - Covers Python, SQL, data visualization, data wrangling, and capstone project
 
 - [**Microsoft Power Platform Fundamentals**](certifications/MicrosoftPowerPlatformFundamentals.pdf)
