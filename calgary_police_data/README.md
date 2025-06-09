@@ -13,7 +13,7 @@ To explore and visualize crime trends in Calgary using 2024 data. The goal is to
 
 ## Key Highlights
 
-- **Mapped Calgary communities using GeoData (MultiPolygon) and `folium`**
+- **Mapped Calgary communities using GeoJson data and `folium`**
 - **Visualized crime counts by community on an interactive choropleth map**
 - **Performed temporal analysis** to compare average crimes on:
   - Public holidays
@@ -26,15 +26,12 @@ To explore and visualize crime trends in Calgary using 2024 data. The goal is to
 
 Calgary_Crime_Analysis/
 Data:
-- crime_data.csv # Raw crime dataset from Calgary Open Data
-- Community_District_Boundaries.csv # Boundary data with MULTIPOLYGON geometry
-- public_holidays.csv # List of public holidays in Alberta
+- crime_data.csv: Raw crime dataset from Calgary Open Data
+- Community_District_Boundaries.csv: Boundary data in GeoJSON format
+- public_holidays.csv: List of public holidays in Alberta
 
 Notebooks:
-- Calgary_Crime_2024_Analysis.ipynb # Jupyter notebook with full analysis
-
-Outputs:
-- crime_map.html # Exported interactive map (optional)
+- Calgary_Crime_2024_Analysis.ipynb: Jupyter notebook with full analysis
 
 README.md: This file
 
@@ -42,25 +39,18 @@ README.md: This file
 
 - **Python (Pandas, NumPy)** for data manipulation
 - **Folium** for interactive maps
-- **GeoPandas & Shapely** for handling spatial data
 - **Matplotlib & Seaborn** for charts
 - **Jupyter Notebook** for documenting the analysis
 
-## Sample Insight
+**Key Insights:**  
+- Crime peaks in summer and dips in winter.  
+- Vehicle-related theft is the most common crime.  
+- Beltline and Downtown areas have the highest crime rates.  
+- Crime dropped significantly during COVID-19 lockdowns.
 
-> **Crime spikes dramatically on public holidays**, with an average of ~1,860 crimes per day, compared to ~273 on weekdays and ~266 on weekends.
-
-This may indicate a need for more focused policing and awareness during public events and holidays.
-
-## Next Steps
-
-- Deep dive into **crime types** to see what’s driving holiday spikes
-- Explore **monthly or seasonal trends**
-- Add **time series forecasting or anomaly detection**
+[View full analysis notebook](calgary_crime_analysis.ipynb)
 
 ## Credits
 
 - **Crime and community boundary data:** [City of Calgary Open Data Portal](https://data.calgary.ca)
 - **Public holiday list:** Government of Alberta
-
-Feel free to explore the notebook for detailed code, visualizations, and commentary.
