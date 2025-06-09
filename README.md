@@ -7,7 +7,7 @@ I thrive on turning messy data into clear insights and visuals that support real
 
 - **Languages:** Python (pandas, numpy, seaborn, matplotlib, scikit-learn), SQL, R, MATLAB  
 - **Data Tools:** Power BI, Excel, Jupyter  
-- **Concepts:** Data wrangling, EDA, geospatial analysis, KPI reporting, forecasting  
+- **Concepts:** Data Wrangling, Exploratory Data Analysis, Geospatial Analysis, KPI reporting, Forecasting  
 
 ---
 
@@ -22,14 +22,20 @@ I thrive on turning messy data into clear insights and visuals that support real
 
 ### 📌 Calgary Crime Data Analysis (2024)
 
-A deep dive into Calgary’s 2024 crime data using **Python** and **geospatial mapping**. I analyzed daily crime patterns and visualized community-level hotspots with interactive maps.
+A comprehensive analysis of Calgary’s crime and public disorder data over multiple years using Python, GeoPandas, and interactive GeoJSON mapping. This project integrates community boundaries with monthly crime and disorder counts to visualize spatial and temporal patterns across the city.
 
-- Cleaned and joined open datasets (crime + community borders + holidays)
-- Built a **choropleth map** of crime counts per community using `folium` and `GeoPandas`
-- Analyzed crime frequency by day type: **public holidays, weekdays, weekends**
-- Found that **public holidays saw 7x more crime** on average than regular days
+- Processed and mapped community boundaries using GeoJSON for precise geospatial visualization
+- Created interactive choropleth maps to highlight crime intensity per community in 2024
+- Analyzed trends across crime categories and public disorder incidents from 2018 to 2024
+- Explored seasonal effects, community-specific crime profiles, and the impact of public holidays
+- Identified key hotspots like Beltline and Downtown Commercial Core with higher crime and disorder rates
 
-> Tools: Python, Pandas, GeoPandas, Folium, Matplotlib
+> Tools: Python, Pandas, json, Folium, Matplotlib, Seaborn
+
+Key Insights:
+- Crime peaks in summer months and drops in winter, with a notable dip during 2020–2022 due to pandemic lockdowns
+- Vehicle theft is the most frequent crime type, concentrated in urban neighborhoods
+- Communities with higher crime also report more public disorder incidents, indicating correlated social disturbances
 
 👉 [View Project](calgary_police_data/)
 
@@ -46,23 +52,35 @@ Capstone project for the IBM Data Analyst Certificate, focused on extracting and
 
 > Tools: Python, Pandas, Requests, JSON, Matplotlib
 
+Key Insights (2024 Developer Survey Highlights):
+- Mostly younger developers (18–44) from the U.S., Germany, and India.
+- 70% have a bachelor’s degree or higher.
+- Full-time and flexible (remote/hybrid) work dominates.
+- Typical salaries range $10K–$140K USD; senior roles earn more.
+- Top learning method: online resources.
+- Most used languages: JavaScript, Python, HTML/CSS, SQL.
+
 👉 [View Project](tech_developer_trends_analysis/)
 
 ---
 
 ## 📜 Certifications
 
-- 🧠 **IBM Data Analyst Professional Certificate**  
-  Coursera – In Progress  
-  Covers Python, SQL, data visualization, data wrangling, and capstone project
+- [**IBM Data Analyst Professional Certificate**](certifications/IBM%Data%Analyst%Certificate.pdf)
+  Coursera - Covers Python, SQL, data visualization, data wrangling, and capstone project
 
-- 📊 **Power BI for Business Analytics** (internal/work-based learning)  
-  Used to build executive dashboards and reports
+- [**Microsoft Power Platform Fundamentals**](certifications/MicrosoftPowerPlatformFundamentals.pdf)
+  Microsoft
 
-- 🎓 **Bachelor of Engineering (Hons) in Engineering Science** &  
-  **Bachelor of Commerce in Finance & Accounting**  
+- [**Microsoft Dynamics 365 Fundamentals**](certifications/MicrosoftDynamics365Fundamentals.pdf)
+  Microsoft
+
+- [**ITIL Foundation Certificate in IT Service Management**](certifications/ITILFoundation.pdf)
+  PeopleCert
+
+- [**Bachelor of Engineering (Hons) in Engineering Science**](certifications/GraduationCertificate-BEng.pdf) &  
+  [**Bachelor of Commerce in Finance & Accounting**](certifications/GraduationCertificate-BCom.pdf)  
   University of Auckland
-
 ---
 
 Thanks for stopping by! Feel free to check out the projects above, or [connect with me on LinkedIn](www.linkedin.com/in/jahnvi-trivedi-2056741a0).
