@@ -25,19 +25,18 @@ To explore and visualize crime trends in Calgary using 2024 data. The goal is to
 ## Project Structure
 
 Calgary_Crime_Analysis/
-│
-├── data/
-│ ├── crime_data.csv # Raw crime dataset from Calgary Open Data
-│ ├── Community_District_Boundaries.csv # Boundary data with MULTIPOLYGON geometry
-│ └── public_holidays.csv # List of public holidays in Alberta
-│
-├── notebooks/
-│ └── Calgary_Crime_2024_Analysis.ipynb # Jupyter notebook with full analysis
-│
-├── outputs/
-│ └── crime_map.html # Exported interactive map (optional)
-│
-└── README.md # This file
+Data:
+- crime_data.csv # Raw crime dataset from Calgary Open Data
+- Community_District_Boundaries.csv # Boundary data with MULTIPOLYGON geometry
+- public_holidays.csv # List of public holidays in Alberta
+
+Notebooks:
+- Calgary_Crime_2024_Analysis.ipynb # Jupyter notebook with full analysis
+
+Outputs:
+- crime_map.html # Exported interactive map (optional)
+
+README.md: This file
 
 ## Tools & Libraries
 
