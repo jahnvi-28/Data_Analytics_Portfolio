@@ -33,6 +33,9 @@ Data:
 Notebooks:
 - Calgary_Crime_2024_Analysis.ipynb: Jupyter notebook with full analysis
 
+Outputs:
+- Interactive Map - [Open Interactive Calgary Crime Map](CalgaryMap.html)
+
 README.md: This file
 
 ## Tools & Libraries
