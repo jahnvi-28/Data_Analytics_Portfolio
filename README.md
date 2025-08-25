@@ -81,11 +81,12 @@ Key Insights (2024 Developer Survey Highlights):
 
 An interactive Power BI dashboard analyzing **synthetic US Superstore sales data** from Kaggle, providing insights into product performance, regional trends, and customer behavior. This project focuses on visualizing key business metrics to support data-driven decision-making.
 
-- Cleaned and prepared the Superstore dataset for analysis
-- Built interactive dashboards with slicers, filters, and drill-through functionality
-- Visualized sales, profit, and order trends across regions, product categories, and subcategories
-- Highlighted top-performing products and areas with underperformance
-- Implemented dynamic KPIs to monitor business performance over time
+- Built a multi-page Power BI dashboard with dynamic filtering and drill-through capabilities  
+- Designed KPIs to track revenue, profit, and sales growth by product, customer segment, and geography  
+- Created forecasting visuals with user-adjustable parameters  
+- Developed multiple DAX measures for customizable insights  
+- Implemented bookmarks, collapsible filter pane, and reset filter buttons for improved user experience  
+- Enhanced interactivity with drilldowns and slicers across categories and regions  
 
 > **Tools:** Power BI, DAX, Data Modeling  
 > **Dataset:** Synthetic US Superstore data provided by Kaggle ([link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?utm_source=chatgpt.com))
@@ -95,7 +96,7 @@ An interactive Power BI dashboard analyzing **synthetic US Superstore sales data
 - Seasonal trends affect sales, with peaks during holiday periods
 - Profitability varies widely by product subcategory, highlighting opportunities for optimization
 
-👉 [View Project](Projects/PowerBI/Supersto)
+👉 [View Project](PowerBI/Superstore_report)
 
 
 
