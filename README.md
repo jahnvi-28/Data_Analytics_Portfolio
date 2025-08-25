@@ -18,8 +18,12 @@ I thrive on turning messy data into clear insights and visuals that support real
    1.1 [Calgary Crime Data Analysis](#-calgary-crime-data-analysis-2024)
    
    1.2 [Technology Job Market Analysis](#-technology-job-market-analysis-ibm-capstone-project)
+
+2. [📈 Power BI Reports](#-power-bi-reports)
+
+   2.1 [Superstore Data Report](#-superstore-data-report)
    
-2. [📜 Certifications](#-certifications)
+3. [📜 Certifications](#-certifications)
 
 ---
 
@@ -35,7 +39,8 @@ A comprehensive analysis of Calgary’s crime and public disorder data over mult
 - Explored seasonal effects, community-specific crime profiles, and the impact of public holidays
 - Identified key hotspots like Beltline and Downtown Commercial Core with higher crime and disorder rates
 
-> Tools: Python, Pandas, json, Folium, Matplotlib, Seaborn
+> **Tools**: Python, Pandas, json, Folium, Matplotlib, Seaborn
+> **Dataset**: Calgary Open Data crime records, community boundary GeoJSON, and Alberta public holidays.
 
 Key Insights:
 - Crime peaks in summer months and drops in winter, with a notable dip during 2020–2022 due to pandemic lockdowns
@@ -55,7 +60,8 @@ Capstone project for the IBM Data Analyst Certificate, focused on extracting and
 - Identified the most in-demand technologies by location
 - Built charts to compare job trends across regions
 
-> Tools: Python, Pandas, Requests, JSON, Matplotlib
+> **Tools**: Python, Pandas, Requests, JSON, Matplotlib
+> **Dataset**: IBM Data Analysis course dataset from Coursera on technology developer trends.
 
 Key Insights (2024 Developer Survey Highlights):
 - Mostly younger developers (18–44) from the U.S., Germany, and India.
@@ -69,6 +75,32 @@ Key Insights (2024 Developer Survey Highlights):
 
 ---
 
+## 📈 Power BI Reports
+
+### 📌 Superstore Data Report
+
+An interactive Power BI dashboard analyzing **synthetic US Superstore sales data** from Kaggle, providing insights into product performance, regional trends, and customer behavior. This project focuses on visualizing key business metrics to support data-driven decision-making.
+
+- Cleaned and prepared the Superstore dataset for analysis
+- Built interactive dashboards with slicers, filters, and drill-through functionality
+- Visualized sales, profit, and order trends across regions, product categories, and subcategories
+- Highlighted top-performing products and areas with underperformance
+- Implemented dynamic KPIs to monitor business performance over time
+
+> **Tools:** Power BI, DAX, Data Modeling  
+> **Dataset:** Synthetic US Superstore data provided by Kaggle ([link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?utm_source=chatgpt.com))
+
+**Key Insights:**  
+- West and Central regions generate the highest sales, while some product categories consistently underperform
+- Seasonal trends affect sales, with peaks during holiday periods
+- Profitability varies widely by product subcategory, highlighting opportunities for optimization
+
+👉 [View Project](Projects/PowerBI/Supersto)
+
+
+
+
+---
 ## 📜 Certifications
 
 - [**IBM Data Analyst Professional Certificate**](certifications/IBM%20Data%20Analyst%20Certificate.pdf)
