@@ -88,4 +88,4 @@ Key Insights (2024 Developer Survey Highlights):
   University of Auckland
 ---
 
-Thanks for stopping by! Feel free to check out the projects above, or [connect with me on LinkedIn](www.linkedin.com/in/jahnvi-trivedi-2056741a0).
+Thanks for stopping by! Feel free to check out the projects above, or [connect with me on LinkedIn](https://www.linkedin.com/in/jahnvi-trivedi-2056741a0/).
