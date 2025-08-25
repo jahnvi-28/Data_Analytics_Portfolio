@@ -6,7 +6,7 @@ I thrive on turning messy data into clear insights and visuals that support real
 ### 🔧 Technical Skills
 
 - **Languages:** Python (pandas, numpy, seaborn, matplotlib, scikit-learn), SQL, R, MATLAB  
-- **Data Tools:** Power BI, Excel, Jupyter  
+- **Data Tools:** Power BI (DAX & M Code), Excel, Jupyter  
 - **Concepts:** Data Wrangling, Exploratory Data Analysis, Geospatial Analysis, KPI reporting, Forecasting  
 
 ---
