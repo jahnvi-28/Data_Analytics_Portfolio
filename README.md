@@ -42,7 +42,7 @@ Key Insights:
 - Vehicle theft is the most frequent crime type, concentrated in urban neighborhoods
 - Communities with higher crime also report more public disorder incidents, indicating correlated social disturbances
 
-👉 [View Project](calgary_police_data/)
+👉 [View Project](Projects/calgary_police_data/)
 
 ---
 
@@ -65,7 +65,7 @@ Key Insights (2024 Developer Survey Highlights):
 - Top learning method: online resources.
 - Most used languages: JavaScript, Python, HTML/CSS, SQL.
 
-👉 [View Project](tech_developer_trends_analysis/)
+👉 [View Project](Projects/tech_developer_trends_analysis/)
 
 ---
 
