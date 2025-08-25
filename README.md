@@ -14,6 +14,11 @@ I thrive on turning messy data into clear insights and visuals that support real
 ## 📚 Table of Contents
 
 1. [💼 Projects](#-projects)
+   
+   1.1 [Calgary Crime Data Analysis](#-calgary-crime-data-analysis-2024)
+   
+   1.2 [Technology Job Market Analysis](#-technology-job-market-analysis-ibm-capstone-project)
+   
 2. [📜 Certifications](#-certifications)
 
 ---
