@@ -39,7 +39,7 @@ A comprehensive analysis of Calgary’s crime and public disorder data over mult
 - Explored seasonal effects, community-specific crime profiles, and the impact of public holidays
 - Identified key hotspots like Beltline and Downtown Commercial Core with higher crime and disorder rates
 
-> **Tools**: Python, Pandas, json, Folium, Matplotlib, Seaborn
+> **Tools**: Python, Pandas, json, Folium, Matplotlib, Seaborn  
 > **Dataset**: Calgary Open Data crime records, community boundary GeoJSON, and Alberta public holidays.
 
 Key Insights:
@@ -60,8 +60,8 @@ Capstone project for the IBM Data Analyst Certificate, focused on extracting and
 - Identified the most in-demand technologies by location
 - Built charts to compare job trends across regions
 
-> **Tools**: Python, Pandas, Requests, JSON, Matplotlib
-> **Dataset**: IBM Data Analysis course dataset from Coursera on technology developer trends.
+> **Tools:** Python, Pandas, Requests, JSON, Matplotlib.  
+> **Dataset:** IBM Data Analysis course dataset from Coursera on technology developer trends.
 
 Key Insights (2024 Developer Survey Highlights):
 - Mostly younger developers (18–44) from the U.S., Germany, and India.
