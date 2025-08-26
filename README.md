@@ -96,7 +96,7 @@ An interactive Power BI dashboard analyzing **synthetic US Superstore sales data
 - Seasonal trends affect sales, with peaks during holiday periods
 - Profitability varies widely by product subcategory, highlighting opportunities for optimization
 
-👉 [View Project](PowerBI/Superstore_report)
+👉 [View Power BI Report](PowerBI/Superstore_report)
 
 
 
