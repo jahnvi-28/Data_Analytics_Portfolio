@@ -79,27 +79,20 @@ Key Insights (2024 Developer Survey Highlights):
 
 ### 📌 Superstore Data Report
 
-An interactive Power BI dashboard analyzing **synthetic US Superstore sales data** from Kaggle, providing insights into product performance, regional trends, and customer behavior. This project focuses on visualizing key business metrics to support data-driven decision-making.
+An interactive Power BI dashboard analyzing **synthetic US Superstore sales data** from Kaggle. It delivers actionable insights on product performance, regional trends, and sales forecasting, supporting data-driven decision-making.
 
-- Built a multi-page Power BI dashboard with dynamic filtering and drill-through capabilities  
-- Designed KPIs to track revenue, profit, and sales growth by product, customer segment, and geography  
-- Created forecasting visuals with user-adjustable parameters  
-- Developed multiple DAX measures for customizable insights  
-- Implemented bookmarks, collapsible filter pane, and reset filter buttons for improved user experience  
-- Enhanced interactivity with drilldowns and slicers across categories and regions  
+- **Multi-page dashboard** with dynamic filters, drill-throughs, and drilldowns  
+- **KPIs & Metrics** for revenue, profit, and sales growth  
+- **Forecasting & Scenario Analysis** with adjustable parameters  
+- **Advanced DAX measures** for customizable insights  
+- **Enhanced UX**: bookmarks, collapsible filters, reset buttons, and interactive tooltips  
 
 > **Tools:** Power BI, DAX, Data Modeling  
-> **Dataset:** Synthetic US Superstore data provided by Kaggle ([link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?utm_source=chatgpt.com))
+> **Dataset:** [Kaggle Superstore](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?utm_source=chatgpt.com)
 
-**Key Insights:**  
-- West and Central regions generate the highest sales, while some product categories consistently underperform
-- Seasonal trends affect sales, with peaks during holiday periods
-- Profitability varies widely by product subcategory, highlighting opportunities for optimization
-
-👉 [View Power BI Report](PowerBI/Superstore_report)
-
-
-
+👉 [View Power BI Report](Power%20BI/Superstore_report)  
+OR  
+👉 [Watch the full demo](https://youtu.be/rc5wj-Y-uRg)  
 
 ---
 ## 📜 Certifications
